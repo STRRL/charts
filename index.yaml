@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   chaos-mesh:
   - apiVersion: v2
+    appVersion: v2.0.0-beta.1
+    created: "2021-06-18T22:27:14.908961425+08:00"
+    description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
+      chaos on Kubernetes environments.
+    digest: 8c303bc0d76463d9d1888d795cc890451f60ec08599730a33029d5c232256e89
+    home: https://chaos-mesh.org
+    icon: https://raw.githubusercontent.com/pingcap/chaos-mesh/master/static/logo.svg
+    keywords:
+    - chaos-engineering
+    - resiliency
+    - fault-injection
+    - kubernetes
+    - testing
+    name: chaos-mesh
+    sources:
+    - https://github.com/pingcap/chaos-mesh
+    urls:
+    - https://charts.chaos-mesh.org/chaos-mesh-v2.0.0-beta.1.tgz
+    version: v2.0.0-beta.1
+  - apiVersion: v2
     appVersion: v1.2.1
-    created: "2021-05-21T11:46:44.973542522Z"
+    created: "2021-06-18T22:27:14.902088381+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: da511316c7ce636a39321eb3eccd6e094342f092477240db64f1106b1d6c7719
@@ -23,7 +43,7 @@ entries:
     version: v0.5.1
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2021-04-23T05:45:57.862587482Z"
+    created: "2021-06-18T22:27:14.900580066+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 7eec666937cc228b89aa9dac700adfd40858ac7db71ac8b176f43f1f8815b629
@@ -43,7 +63,7 @@ entries:
     version: v0.5.0
   - apiVersion: v1
     appVersion: v1.1.4
-    created: "2021-04-20T08:55:27.813398373Z"
+    created: "2021-06-18T22:27:14.899063579+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: b2c8fbf13a7a15d5bd6d79ff46cf295d64e81eddd1c0f8939a585d7f70a250fe
@@ -63,7 +83,7 @@ entries:
     version: v0.4.4
   - apiVersion: v1
     appVersion: v1.1.3
-    created: "2021-04-15T14:55:38.743241075Z"
+    created: "2021-06-18T22:27:14.897576636+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 8a907c4eda8c3f9e3e8d07b7759f4ca425ce0b69882754d6a576de177dabd174
@@ -83,7 +103,7 @@ entries:
     version: v0.4.3
   - apiVersion: v1
     appVersion: v1.1.2
-    created: "2021-03-12T13:57:23.587343676Z"
+    created: "2021-06-18T22:27:14.895201229+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 73e3e4af95827ffff58174d7461946af86cf1a28ef6b11dc41e164ddea61e1e3
@@ -103,7 +123,7 @@ entries:
     version: v0.4.2
   - apiVersion: v1
     appVersion: v1.1.1
-    created: "2021-03-12T13:57:23.585314438Z"
+    created: "2021-06-18T22:27:14.893616995+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 35e7dc500e7eeb2055f662e33e13b92711798d13c38557f33bf9bb1182126806
@@ -123,7 +143,7 @@ entries:
     version: v0.4.1
   - apiVersion: v1
     appVersion: v1.1.0
-    created: "2021-03-12T13:57:23.583234899Z"
+    created: "2021-06-18T22:27:14.892213653+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: d2808556dfd17277814d1863cc4778549df99f0ad5abb0507eb08881c3b572c5
@@ -143,7 +163,7 @@ entries:
     version: v0.4.0
   - apiVersion: v1
     appVersion: v1.0.3
-    created: "2021-03-12T13:57:23.580349144Z"
+    created: "2021-06-18T22:27:14.890712183+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 00d7face830487e97d2bdae3cf578e014f192f7d79a0904bc876dce9338b1d2f
@@ -163,7 +183,7 @@ entries:
     version: v0.3.3
   - apiVersion: v1
     appVersion: v1.0.2
-    created: "2021-03-12T13:57:23.578439808Z"
+    created: "2021-06-18T22:27:14.88983636+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 6b3936eb01087d5d61577066db36aa5211706d9e9084b6bcbd1e14c692616cd6
@@ -183,7 +203,7 @@ entries:
     version: v0.3.2
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2021-03-12T13:57:23.577208885Z"
+    created: "2021-06-18T22:27:14.888672577+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 6995d6ee77515a0da7574f5f916e833a98ea373ff556d1d3fb0ececa41be7f15
@@ -203,7 +223,7 @@ entries:
     version: v0.3.1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2021-03-12T13:57:23.576012363Z"
+    created: "2021-06-18T22:27:14.886873299+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: d7d75a4ff8cc52a92f968bbb8945cfbb88cf793b07f83ae70dbe5366317d998f
@@ -223,7 +243,7 @@ entries:
     version: v0.3.0
   - apiVersion: v1
     appVersion: v0.9.1
-    created: "2021-03-12T13:57:23.574943343Z"
+    created: "2021-06-18T22:27:14.885869386+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 1c202009bd88d71c11c3136edca32108fd3335e784f3fe81d5d7a4e128834a11
@@ -243,7 +263,7 @@ entries:
     version: v0.2.1
   - apiVersion: v1
     appVersion: v0.9.0
-    created: "2021-03-12T13:57:23.573813721Z"
+    created: "2021-06-18T22:27:14.885020242+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: cb9e837dcb74783df8c0e342ecd5c21911e7e245dfd956c5512b74c15eea7361
@@ -263,7 +283,7 @@ entries:
     version: v0.2.0
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2021-03-12T13:57:23.572645999Z"
+    created: "2021-06-18T22:27:14.88409134+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 9a2e8afc3b9b1be21e04f0419c1648ec6fda4ab229c6cc957e17d789f2b42e66
@@ -283,7 +303,7 @@ entries:
     version: v0.1.1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2021-03-12T13:57:23.571582579Z"
+    created: "2021-06-18T22:27:14.883209929+08:00"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 9cf1a3b8226165aa480d6b6dc23c049d13f795f2135bd325703594a4cf97851f
@@ -301,4 +321,4 @@ entries:
     urls:
     - https://charts.chaos-mesh.org/chaos-mesh-v0.1.0.tgz
     version: v0.1.0
-generated: "2021-05-21T11:46:44.965901596Z"
+generated: "2021-06-18T22:27:14.882213978+08:00"
